@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reading list</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/logo.png">
+</head>
+<body>
+   <div id="wrapper">
+    <header>
+        <div id="page-banner">
+            <h1 class="title">MY READING LIST</h1>
+            <p>Books for Developers</p>
+            <form id="search-books">
+                <input type="text" placeholder="Search books">
+            </form>
+        </div>
+    </header> 
+    <div id="book-list">
+    <ul>
+        <li>
+            <span class="name">Introduction to HTML5</span>
+            <span class="delete">delete</span>
+        </li>
+        <li>
+            <span class="name">Javascript and the browser</span>
+            <span class="delete">delete</span> 
+        </li>
+         <li>
+            <span class="name">Python Cheatbook</span>
+            <span class="delete">delete</span> 
+        </li>
+         <li>
+            <span class="name">Mr Webcrawler</span>
+            <span class="delete">delete</span> 
+        </li>
+    </ul>    
+    </div> 
+        <form id="add-book">
+            <input type="checkbox" id="hide">
+            <label for="Hide">Hide all books </label><br>
+    <input type="text" placeholder="Add a book...">  
+    <button>Add</button>  
+    </form> 
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
